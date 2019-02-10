@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ReceivingLed.ixi",
+  "main_class": "ReceivingLedIXI",
+  "description": "Turn led on/off",
+  "repository": "Qaamien/ReceivingLedIXI",
+  "gui_port": -1,
+  "supported_versions": ["0.4", "0.4.1-SNAPSHOT"]
+}
