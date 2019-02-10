@@ -1,4 +1,4 @@
-# Receiving Led IXI module
+## Receiving Led IXI module
 
 # Ixi module example for IOTA ICT network.
 
@@ -15,6 +15,19 @@ Please check out how your Raspberry pi versions pin numbers are defined at http:
 Connect LED with 1K ohm resistor.
 
 YOU MUST USE RESISTOR WITH LED OTHERWISE IT MAY CAUSE DAMAGE TO YOUR RASPBERRY PI!
+
+# TEST
+
+ To test this IXI you must clone repo and go ReceivingLedIXI.java file and write address which you wanna use in to:
+ t.address = ""; between "" you can write address with uppercase letters A-Z and number 9, make that address 81 char long.
+ If you are using SendButton IXI module to send messages to this module you wanna use same address which you have make
+ that module to send messages
+ 
+ then compile with: gradle ixi and copy *.jar file in to ict/modules and restart ict
+ 
+ # KEEP IN MIND THAT THIS MODULE DO NOT USE ANY TAGS, ENCRYPTION OR MAM. 
+ # SO IF SOMEONE ELSE SEND "ON" MESSAGE TO ADDRESS YOU HAVE CHOSEN
+ # IT WILL TURN LED ON, USE THIS ONLY IN TEST PURPOSE
 
 
 # USE AT YOUR OWN RISK!
